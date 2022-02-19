@@ -26,5 +26,7 @@ Route::get('/testing2', function () {
 });
 
 Route::get('post', function () {
-    return view('post');
+    return view('post', [
+        'post' => '<h1>Hello world</h1>',
+    ]);
 });
