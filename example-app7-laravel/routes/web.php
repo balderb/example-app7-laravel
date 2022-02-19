@@ -25,8 +25,15 @@ Route::get('/testing2', function () {
     return view('testing2');
 });
 
-Route::get('post', function () {
+Route::get('posts/{post}', function ($slug) {
+    $path = __DIR__ . "/../resources/posts/{$slug}.html";
+
+    if (!file_exists($path)) {
+        dd('file does not exist');
+    }
+
+    $post = file_get_contents($path);
     return view('post', [
-        'post' => '<h1>Hello world</h1>',
+        'post' => $post
     ]);
 });

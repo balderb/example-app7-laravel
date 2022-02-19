@@ -11,7 +11,7 @@
 
 <body>
     <article>
-        <h1><a href="/post">My first Post</a></h1>
+        <h1><a href="/posts/my-first-post">My first Post</a></h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente ea necessitatibus odit cum excepturi nemo
             qui. Consequatur sed explicabo saepe quae mollitia modi repudiandae quos ipsa, nobis iure praesentium
             consequuntur?
@@ -28,7 +28,7 @@
             consectetur odio at fugiat alias earum sunt.</p>
     </article>
     <article>
-        <h1><a href="/post">My Second Post</a></h1>
+        <h1><a href="/posts/my-second-post">My Second Post</a></h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente ea necessitatibus odit cum excepturi nemo
             qui. Consequatur sed explicabo saepe quae mollitia modi repudiandae quos ipsa, nobis iure praesentium
             consequuntur?
@@ -45,7 +45,7 @@
             consectetur odio at fugiat alias earum sunt.</p>
     </article>
     <article>
-        <h1><a href="/post">My Third Post</a></h1>
+        <h1><a href="/posts/my-third-post">My Third Post</a></h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente ea necessitatibus odit cum excepturi nemo
             qui. Consequatur sed explicabo saepe quae mollitia modi repudiandae quos ipsa, nobis iure praesentium
             consequuntur?
